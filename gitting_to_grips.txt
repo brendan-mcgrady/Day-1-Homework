@@ -1,0 +1,16 @@
+To set up a (correct wording?) git:
+- Use mkdir 'dir_name' to create a directory wherever you want to begin project (within appropriate directory; otherwise use cd 'child_dir_name' or cd ..(+/.. * num) to navigate to the desired child/parent directory).
+- While in this directory, use 'git init' to initialise a git.
+- Create files within the directory using 'touch x', or use 'mv' to move desired files from other directories as desired for new git project as necessary.
+- Modify files as desired, then stage said changes using 'git add .' for all files in the directory or 'git add --' for individual files.
+- When happy with changes completely, or when significant (small but reasonable in regularity) changes have been made, use 'git commit' to commit the staged changes to the repository - follow this with '-m "Comment relating to commit"' to append an easily readable, concise summation of commit's purpose.
+- Go to Github, create a new repository with relevant name, and then c+p the command from browser to CLI to 'link' git to Github
+- Any further commits can be pushed more simply thereafter using 'git push origin master'.
+
+mkdir 'dir_name'
+>> git init
+>> touch x
+>> git add ./git add --x
+>> git commit -m "Comment"
+>> create repo on Github, c+p command from browser to CLI
+>> any commits thereafter, use 'git push origin master'
