@@ -1,0 +1,5 @@
+.gitignore will prevent any file types specified after the command (.gitignore *.txt, for one example, which = all .txt files) from being added to the repository.
+This applies to whatever directory .gitignore is used in, as well as any child directory stemming from the original.
+It can be overridden by using 'add .' or 'git add -f <file_name>' - the '-f' meaning 'force'.
+
+I'll commit this file to Github as is, then will use .gitignore to ignore all .txt files within the homework_dir2, change it, then stage and commit again to see what happens.
